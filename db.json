@@ -1,0 +1,354 @@
+{
+  "pagin": [
+    {
+      "userName": "11116",
+      "passWord": "1111167",
+      "id": 1
+    },
+    {
+      "userName": "sfdsdfd",
+      "passWord": "gdfssg",
+      "id": 2
+    },
+    {
+      "userName": "ddddd",
+      "passWord": "dddddd",
+      "id": 3
+    },
+    {
+      "userName": "efeweef",
+      "passWord": "erfwer",
+      "id": 4
+    },
+    {
+      "userName": "sssss",
+      "passWord": "ssssssss",
+      "id": 5
+    },
+    {
+      "userName": "sfdsvsdvdad",
+      "passWord": "dsavadsvadv",
+      "id": 6
+    },
+    {
+      "userName": "123456",
+      "passWord": "hhhhhh",
+      "id": 7
+    }
+  ],
+  "getList": [
+    {
+      "code": 200,
+      "msg": "请求成功",
+      "data": [
+        {
+          "userId": 1,
+          "id": 1,
+          "title": "title001",
+          "body": "body001"
+        },
+        {
+          "userId": 2,
+          "id": 2,
+          "title": "title002",
+          "body": "body002"
+        },
+        {
+          "userId": 3,
+          "id": 3,
+          "title": "title003",
+          "body": "body003"
+        },
+        {
+          "userId": 4,
+          "id": 4,
+          "title": "title004",
+          "body": "body004"
+        },
+        {
+          "userId": 5,
+          "id": 5,
+          "title": "title005",
+          "body": "body005"
+        },
+        {
+          "userId": 6,
+          "id": 6,
+          "title": "title006",
+          "body": "body006"
+        },
+        {
+          "userId": 7,
+          "id": 7,
+          "title": "title007",
+          "body": "body007"
+        },
+        {
+          "userId": 8,
+          "id": 8,
+          "title": "title008",
+          "body": "body008"
+        },
+        {
+          "userId": 9,
+          "id": 9,
+          "title": "title009",
+          "body": "body009"
+        },
+        {
+          "userId": 10,
+          "id": 10,
+          "title": "title0010",
+          "body": "body0010"
+        },
+        {
+          "userId": 11,
+          "id": 11,
+          "title": "title0011",
+          "body": "body0011"
+        },
+        {
+          "userId": 12,
+          "id": 12,
+          "title": "title002",
+          "body": "body0012"
+        },
+        {
+          "userId": 13,
+          "id": 13,
+          "title": "title0013",
+          "body": "body0013"
+        },
+        {
+          "userId": 14,
+          "id": 14,
+          "title": "title0014",
+          "body": "body0014"
+        },
+        {
+          "userId": 15,
+          "id": 15,
+          "title": "title0015",
+          "body": "body0015"
+        },
+        {
+          "userId": 16,
+          "id": 16,
+          "title": "title0016",
+          "body": "body0016"
+        },
+        {
+          "userId": 17,
+          "id": 17,
+          "title": "title0017",
+          "body": "body0017"
+        },
+        {
+          "userId": 18,
+          "id": 18,
+          "title": "title0028",
+          "body": "body0018"
+        },
+        {
+          "userId": 19,
+          "id": 19,
+          "title": "title0019",
+          "body": "body0019"
+        },
+        {
+          "userId": 20,
+          "id": 20,
+          "title": "title0020",
+          "body": "body0020"
+        },
+        {
+          "userId": 21,
+          "id": 21,
+          "title": "title0021",
+          "body": "body0021"
+        },
+        {
+          "userId": 22,
+          "id": 22,
+          "title": "title0022",
+          "body": "body0022"
+        }
+      ]
+    }
+  ],
+  "userList": [
+    {
+      "code": 200,
+      "data": [
+        {
+          "id": 1,
+          "nikeName": "Tina",
+          "userName": "Tina",
+          "role": [
+            { "role": 2, "roleName": "管理员" },
+            { "role": 3, "roleName": "业务员" }
+          ]
+        },
+        {
+          "id": 2,
+          "nikeName": "Ace",
+          "userName": "Ace",
+          "role": [
+            { "role": 2, "roleName": "管理员" },
+            { "role": 3, "roleName": "业务员" }
+          ]
+        },
+        {
+          "id": 3,
+          "nikeName": "admin",
+          "userName": "admin",
+          "role": [{ "role": 2, "roleName": "管理员" }]
+        },
+        {
+          "id": 4,
+          "nikeName": "test",
+          "userName": "test",
+          "role": [{ "role": 3, "roleName": "业务员" }]
+        }
+      ]
+    }
+  ],
+  "roleList": [
+    {
+      "code": 200,
+      "data": [
+        {
+          "roleId": 1,
+          "roleName": "超级管理员",
+          "authority": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "roleId": 2,
+          "roleName": "管理员",
+          "authority": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "roleId": 3,
+          "roleName": "业务员",
+          "authority": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "roleId": 4,
+          "roleName": "客服",
+          "authority": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "roleId": 5,
+          "roleName": "财务",
+          "authority": [1, 2, 3, 4, 5, 6]
+        }
+      ]
+    }
+  ],
+  "authority": [
+    {
+      "code": 200,
+      "data": [
+        {
+          "name": "订单详情",
+          "roleId": 1,
+          "viewRole": "",
+          "roleList": [
+            {
+              "name": "订单详情",
+              "roleId": 4,
+              "viewRole": "",
+              "roleList": [
+                {
+                  "name": "审核",
+                  "roleId": 5
+                }
+              ]
+            },
+            {
+              "name": "查看",
+              "roleId": 2
+            },
+            {
+              "name": "删除",
+              "roleId": 3
+            }
+          ]
+        },
+        {
+          "name": "商品列表",
+          "roleId": 6,
+          "viewRole": "",
+          "roleList": [
+            {
+              "name": "商品详情",
+              "roleId": 9,
+              "viewRole": "",
+              "roleList": [
+                {
+                  "name": "修改",
+                  "roleId": 10
+                }
+              ]
+            },
+            {
+              "name": "查看",
+              "roleId": 7
+            },
+            {
+              "name": "删除",
+              "roleId": 8
+            }
+          ]
+        },
+        {
+          "name": "用户列表",
+          "roleId": 11,
+          "viewRole": "",
+          "roleList": [
+            {
+              "name": "查看",
+              "roleId": 12
+            },
+
+            {
+              "name": "修改",
+              "roleId": 13
+            }
+          ]
+        },
+
+        {
+          "name": "角色管理",
+          "roleId": 14,
+          "viewRole": "",
+          "roleList": [
+            {
+              "name": "角色权限",
+              "roleId": 17,
+              "viewRole": "",
+              "roleList": [
+                {
+                  "name": "查看",
+                  "roleId": 18
+                },
+                {
+                  "name": "修改",
+                  "roleId": 19
+                }
+              ]
+            },
+            {
+              "name": "新增",
+              "roleId": 15
+            },
+            {
+              "name": "修改",
+              "roleId": 16
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
